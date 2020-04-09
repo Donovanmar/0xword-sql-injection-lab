@@ -25,6 +25,6 @@ function fila($resultado, $i){
 	return pg_fetch_array($resultado, $i);
 }
 
-$conexion = conectar('localhost','almacen','postgres','postgres');
+$conexion = conectar('192.168.1.2','almacen','root','toor');
 
 ?>
