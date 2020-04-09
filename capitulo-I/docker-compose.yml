@@ -14,12 +14,16 @@ services:
 
 
         app:
-                image: httpd
+                build:
+                        context: .
+                        dockerfile: php-server-dockerfile
                 restart: always
                 volumes:
-                        - ./web-application:/usr/local/apache2/htdocs
+                        - ./web-application:/var/www/html
                 ports:
                         - "8080:80"
+                dns:
+                        - "8.8.8.8"
                 networks:
                         nakernet:
                                 ipv4_address: 192.168.1.3
