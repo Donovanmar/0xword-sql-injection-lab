@@ -4,7 +4,7 @@
 
     //se indicó el producto, buscarlo
     if(isset($_GET["id"])){
-        $sql = "select * from public.productos where referencia = '" . $_GET["id"];
+        $sql = "select * from public.productos where id = " . $_GET["id"];
 
 	$resultado = ejecutar_SQL($conexion, $sql);
 
