@@ -7,7 +7,7 @@ include 'db.inc.php';
 if(isset($_POST["nombre"])){
 
 	  //Sentencia SQL a ejecutar
-	$sql = "select trim(contrasena) pwd, id, descripcion from almacen.usuarios where nombre = '" . $_POST["nombre"] . "'";	
+	$sql = "select trim(contrasena) pwd, id, descripcion from public.usuarios where nombre = '" . $_POST["nombre"] . "'";	
 	$resultado = ejecutar_SQL($conexion, $sql);
 
 	//En principio. se da la contraseña como no válida
