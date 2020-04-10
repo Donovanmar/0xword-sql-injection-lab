@@ -39,7 +39,7 @@ if(isset($_POST["nombre"])){
 
 //Si no se ha iniciado la sesi�n, mostrar un formulario de login
 if(! isset($_SESSION["usuario"])){
- print  '<form method="POST" action="login.php">
+ print  '<form method="POST" action="login2.php">
 	    	<table border="1">
 	 		<tr><td colspan="2">Introduzca sus datos de acceso</td></tr>
 	 		<tr><td>Nombre:&nbsp;</td><td><input type="text" name="nombre" id="nombre"></td></tr>
