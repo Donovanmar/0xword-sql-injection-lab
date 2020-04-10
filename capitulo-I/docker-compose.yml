@@ -20,6 +20,7 @@ services:
                 restart: always
                 volumes:
                         - ./web-application:/var/www/html
+                        - ./config/php.ini:/usr/local/etc/php/php.ini
                 ports:
                         - "8080:80"
                 dns:
