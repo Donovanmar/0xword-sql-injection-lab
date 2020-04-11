@@ -13,7 +13,6 @@ Dentro de cada carpeta encontrarás un archivo llamado *docker-compose.yml*, ser
 Para ello debes abrir el interprete de comando del sistema operativo que estes usando, situarte en la carpeta del capítulo que quieras practicar y lanzar el comando *docker-compose up*. Solo la primera vez tardará unos minutos, luego apenas unos segundos.
 
 ## Capítulo I
-------------
 
 > **CUIDADO:** la tabla *usuarios* que se expone en el libro define una columuna llamada *desc*, en el laboratorio esta columna se llama *descripcion*.
 
