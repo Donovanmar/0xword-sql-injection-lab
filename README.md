@@ -1,9 +1,7 @@
 # Laboratorio de SQL Injection Dockerizado.
 ### Laboratorio dockerizado para practicar los ejercicios de SQL Injection expuestos en el libro: Hacking de Aplicaciones Web: SQL Injection de 0xWord.
 
-![Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición](https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg)
-
-<div style="text-align:center"><img src="https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg" alt="Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición"/></div>
+<img style="max-width:20%"src="https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg" alt="Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición"/>
 
 ---
 
@@ -26,3 +24,6 @@ Archivo | Link
 --- | ---
 login.php | [http://127.0.0.1:8080/login.php](http://127.0.0.1:8080/login.php)
 login2.php | [http://127.0.0.1:8080/login2.php](http://127.0.0.1:8080/login2.php)
+
+#### php.ini
+En este capitulo deberás cambiar la configuración de PHP para mostrar o no mostrar errores por pantalla. Para ello tienes que modificar el fichero *php.ini* que se encuentra dentro del directorio *config*. Para aplicar los cambios deberás reiniciar el entorno, para ello para la ejecución del entorno actual, luego ejecuta **docker-compose down** y por utimo **docker-compose up --force-recreate**.
