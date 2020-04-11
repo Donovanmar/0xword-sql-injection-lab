@@ -3,6 +3,8 @@
 
 ![Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición](https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg | width=48)
 
+<img src="https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg" width="48">
+
 ---
 
 Con este laboratio podrás practicar todos los ejercicios expuestos en el libro de una forma fácil y muy rápida. Las tecnologías usadas y el código son los mismos que están en el libro. El laboratorio esta estructurado según los caputilos del libro, por cada capítulo hay una carpeta que contiene todo lo necesario para levantar un entorno en local.
