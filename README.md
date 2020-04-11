@@ -14,7 +14,7 @@ Para ello debes abrir el interprete de comando del sistema operativo que estes u
 
 ## Capítulo I
 
-> **CUIDADO:** la tabla *usuarios* que se expone en el libro define una columuna llamada *desc*, en el laboratorio esta columna se llama *descripcion*.
+**CUIDADO:** la tabla *usuarios* que se expone en el libro define una columuna llamada *desc*, en el laboratorio esta columna se llama *descripcion*.
 
 Debes tener en cuenta que el código de estos ejercicios guardan una sesión de usuario en el navegador. Cada vez que consigas autenticarte en la aplicación con unas credenciales "válidas" ;) deberás eliminar las *cookies* de sesión del navegador si quieres volver al formulario de login.
 
