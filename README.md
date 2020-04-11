@@ -1,7 +1,7 @@
 # Laboratorio de SQL Injection Dockerizado.
 ### Laboratorio dockerizado para practicar los ejercicios de SQL Injection expuestos en el libro: Hacking de Aplicaciones Web: SQL Injection de 0xWord.
 
-<img style="max-width:20%"src="https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg" alt="Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición"/>
+<div><img style="max-width:20%" src="https://0xword.com/224-thickbox_default/libro-hacking-aplicaciones-web-sql-injection.jpg" alt="Libro Hacking de Aplicaciones Web: SQL Injection. Tercera edición"/></div>
 
 ---
 
