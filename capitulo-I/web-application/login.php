@@ -7,10 +7,11 @@ include 'pg.inc.php';
 //Si se ha rellenado anteriormente el formulario, comprobar lo datos
 if(isset($_POST["nombre"])){
 	  //Sentencia SQL a ejecutar
-	  $sql = "select * from public.usuarios where nombre = '".
-	  $_POST["nombre"].
-	  "' AND contrasena =  '".
-	  $_POST["pwd"]."'";
+	  $nombre = limpiarDato($_POST["nombre"]);
+	  $contrasena = limpiarDato($_POST["pwd"]);
+	  $sql = "select * from public.usuarios where nombre = '".$nombre.
+	  "' AND contrasena =  '".$contrasena."'";
+	  echo $sql;
 	
 	$resultado = ejecutar_SQL($conexion, $sql);
 	

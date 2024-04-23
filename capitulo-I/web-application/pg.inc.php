@@ -1,4 +1,12 @@
 <?php
+function limpiarDato($dato){
+	$dato = trim($dato);
+    $dato = stripslashes($dato);
+	$dato = strip_tags($dato);
+	$dato = str_replace('-', '', $dato);
+	return $dato;
+}
+
 //Abrir una conexi�n con al Base de Datos
 function conectar($host, $db, $usuario, $contrasena){
 	return pg_connect("host=$host dbname=$db user=$usuario password=$contrasena");
